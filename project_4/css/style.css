@@ -1,0 +1,362 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+.promo{
+	min-height: 800px;
+	background: url('../img/bg_1.jpg') center center/cover no-repeat;
+	padding: 39px 0 60px 0;	
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+.logo .logo_img{
+	display: block;
+	margin: 0 auto;
+}
+
+.logo .logo_text{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 14px;
+}
+
+h1{
+	margin-top: 50px;
+}
+
+.title{
+	font-size: 41px;
+	line-height: 24px;
+	font-weight: 900;
+	color: #f9bf3b;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.simple .title_big{
+	font-size: 80px;
+	/*line-height: 24px;*/
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 25px;
+}
+
+h2.title{
+	margin-top: 25px;
+}
+
+
+.promo .promo_text{
+	font-size: 21px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	padding: 0 13px;
+}
+
+.promo .promo_text span{
+	color: #f9bf3b;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.promo .promo_btn, .sign_up .sign_up_btn{
+	display: block;
+	margin: 0 auto;
+	padding: 0 30px;
+	margin-top: 73px;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	/*width: 313px;*/
+	min-height: 72px;
+
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: none;
+	border-bottom: 5px solid #207d98;
+
+	-webkit-box-shadow: 0 0 0 4px rgba(0,0,0,0.23);
+	box-shadow: 0 0 0 4px rgba(0,0,0,0.23);
+	
+
+	background: #3ab6da;
+	background: -moz-linear-gradient(top,  #3ab6da 0%, #35aed1 35%, #2ea2c4 68%, #289abb 100%);
+	background: -webkit-linear-gradient(top,  #3ab6da 0%,#35aed1 35%,#2ea2c4 68%,#289abb 100%);
+	background: linear-gradient(to bottom,  #3ab6da 0%,#35aed1 35%,#2ea2c4 68%,#289abb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ab6da', endColorstr='#289abb',GradientType=0 );
+
+
+	
+	cursor: pointer;
+	outline: none;
+}
+
+
+
+.more{
+	margin-top: 73px;
+}
+
+
+.more .more_text{
+	font-size: 15px;
+	/*line-height: 24px;*/
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.more .more_img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+
+.waiting{
+	min-height: 604px;
+	padding: 85px 0 75px;
+	background-color: #efefef;
+}
+
+.waiting .waiting_header,.finish .finish_header{
+	font-size: 30px;
+	/*line-height: 24px;*/
+	font-weight: 400;
+	color: #252525;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.waiting .waiting_divider,.finish .finish_divider{
+	width: 217px;
+	height: 4px;
+	background-color: #f9bf3b;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.waiting .waiting_subheader{
+	font-size: 23px;
+	/*line-height: 24px;*/
+	font-weight: 400;
+	color: #4a4a4a;
+	text-align: center;
+	margin-top: 18px;
+}
+
+.waiting .waiting_wrapper{
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item{
+	width: 339px;
+}
+
+.waiting .waiting_wrapper .waiting_img{
+	width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_descr{
+	font-size: 15px;
+	/*line-height: 21px;*/
+	font-weight: 300;
+	color: #4a4a4a;
+	text-align: center;
+	margin-top: 35px;
+
+}
+
+.optimisation{
+	background: url('../img/bg_2.jpg') center center/cover no-repeat;
+	padding: 100px 0 100px 0;
+	min-height: 552px;	
+}
+
+
+.optimisation .optimisation_header{
+	font-size: 30px;
+	/*line-height: 21px;*/
+	font-weight: 900;
+	color: #299cbd;
+	margin-left: 391px;
+	text-transform: uppercase;
+}
+
+.optimisation .optimisation_text{
+	font-size: 17px;
+	/*line-height: 27px;*/
+	font-weight: 300;
+	color: #4a4a4a;
+	max-width: 750px;
+	margin-top: 30px;
+	margin-left: 391px;
+}
+
+
+.optimisation .optimisation_text span{
+	font-weight: 700;
+}
+
+
+.finish{
+	background: url('../img/bg_3.jpg') center center/cover no-repeat;
+	padding: 85px 0 75px 0;
+	min-height: 447px;
+		
+}
+.finish .finish_header{
+	color: #efefef;
+}
+
+.finish_wrapper{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item{
+	width: 210px;
+	text-align: center;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+	font-size: 17px;
+	/*line-height: 20px;*/
+	font-weight: 300;
+	color: #efefef;
+	margin-top: 25px;
+}
+
+.sign_up{
+	min-height: 630px;
+	background-color: #efefef;
+	padding: 85px 0 85px 0;
+}
+
+.sign_up .sign_up_wrapper .sign_up_icon{
+	display: block;
+	margin: 0 auto;
+}
+
+.sign_up .sign_up_wrapper .sign_up_text{
+	font-size: 30px;
+	/*line-height: 43px;*/
+	font-weight: 400;
+	color: #252525;
+	margin-top: 45px;
+	text-align: center;
+}
+
+.webinar{
+	padding: 80px 0 70px 0;
+	min-height: 517px;
+}
+
+.webinar .webinar_wrapper .webinar_icon{
+	display: block;
+	margin: 0 auto;
+}
+
+.webinar .webinar_wrapper .webinar_text .webinar_title{
+	font-size: 30px;
+	/*line-height: 12px;*/
+	font-weight: 400;
+	color: #252525;
+	margin-top: 45px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.webinar .webinar_wrapper .webinar_text .webinar_date{
+	font-size: 36px;
+	/*line-height: 12px;*/
+	font-weight: 900;
+	color: #299cbd;
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.webinar .webinar_wrapper .webinar_text .webinar_motivation{
+	font-size: 23px;
+	/*line-height: 20px;*/
+	font-weight: 400;
+	color: #4a4a4a;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+
+
+footer{
+	min-height: 166px;
+	background-color: #1a1a1a;
+	padding: 60px 0 60px 0;
+}
+.footer_wrapper .footer_info{
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+	/*line-height: 21px;*/
+	font-weight: 300;
+	color: #888888;
+
+}
+
+.footer_wrapper .footer_info a{
+	display: block;
+	color: inherit;
+	margin: 0 5px;
+}
+
+/*.footer_wrapper .footer_info .footer_line{
+	height: 13px;
+	width: 9px;
+	border-left: 2px solid #888888;
+	margin-left: 3px;
+	margin-right: 3px;
+}*/
+
+.footer_wrapper .footer_info .footer_support{
+	max-width: 138px;
+}
+
+.footer_wrapper .footer_info .footer_confidentiality{
+	max-width: 225px;
+}
+
+.footer_wrapper .footer_phone{
+	font-size: 15px;
+	/*line-height: 21px;*/
+	font-weight: 300;
+	color: #888888;
+	margin-top: 10px;
+	text-align: center;
+
+}
+
