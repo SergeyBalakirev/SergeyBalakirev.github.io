@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatile" content="ie=edge">
+  <title>Burger-House</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="header__logo" href="#">
+            <img src="images/logo.png" alt="логотип">
+          </a>
+          <nav class="header__nav">
+            <a class="header__delivery" href="tel:+1234567890">
+              Быстрая Доставка +1 234 567 890
+            </a>
+
+            <div class="burger">
+              <span class="burger__line burger__line--first"></span>
+              <span class="burger__line burger__line--second"></span>
+              <span class="burger__line burger__line--third"></span>
+              <span class="burger__line burger__line--fourth"></span>
+            </div>
+
+            <ul class="header__list" id="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#header">
+                  главная
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#stock">
+                  акции
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#menu">
+                  меню
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#new">
+                  новинки
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#delivery">
+                  заказать доставку
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#footer">
+                  контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__banner">
+      <div class="container">
+        <div class="header__banner-inner">
+          <div class="header__banner-subtitle wow animate__animated animate__fadeInDownBig">
+            самые вкусные бургеры у нас
+          </div>
+          <div class="header__banner-title wow animate__animated animate__rotateInDownLeft">
+            burger
+            <span class="header__banner-title--small">house</span>
+          </div>
+
+          <div class="header__banner-img wow animate__animated animate__fadeInRightBig"></div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <main>
+    <section class="stock" id="stock">
+      <div class="container">
+        <div class="stock__inner">
+          <div class="stock__main wow animate__animated animate__fadeInLeftBig">
+            <div class="stock__item stock__item--first" style="background-image: url(images/stock1.jpg);">
+              <div class="stock__item-text">
+                <div class="stock__subtitle">
+                  бесплатная доставка
+                </div>
+                <div class="stock__title">
+                  при заказе “royal”
+                </div>
+
+                <p class="stock__hover-txt1">
+                  При заказе нашего фирменного бургера “ROYAL” мы гарантируем бесплатную доставку.
+                </p>
+                <p class="stock__hover-txt2">
+                  * Диапазон доставки 3 км. За пределами диапазона акция не действительна
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="stock__secondary wow animate__animated animate__fadeInRightBig">
+            <div class="stock__item stock__item--second" style="background-image: url(images/stock2.jpg);">
+              <div class="stock__item-text">
+                <div class="stock__subtitle">
+                  каждую среду
+                </div>
+                <div class="stock__title">
+                  Больше вкуса
+                  <span class="stock__subtitle">
+                    Два по цене одного
+                  </span>
+                </div>
+
+                <p class="stock__hover-txt2">
+                  Закажите два любых одинаковых бургера по цене одного
+                </p>
+              </div>
+            </div>
+
+            <div class="stock__item stock__item--third" style="background-image: url(images/stock3.jpg);">
+              <div class="stock__item-text">
+                <div class="stock__subtitle">
+                  Горячее предложение
+                </div>
+                <div class="stock__title">
+                  -10% на самовывоз
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="menu__inner">
+          <div class="menu__title">
+            наше меню
+          </div>
+          <p class="menu__text">
+            Наши вкусные бургеры ресторанного уровня, которые готовы встретиться со своими ценителями: дома, на работе,
+            на вечеринке, на отдыхе в любое удобное для вас время. Мы используем настоящие европейские сыры, свежее мясо
+            без заморозки и натуральные булочки!
+          </p>
+
+          <div class="menu__slider">
+            <div class="menu__slider-inner">
+
+              <div class="menu__slider-item">
+                <div class="menu__slider-img" style="background-image: url(images/menu-burger5.png);"></div>
+                <div class="menu__slider-title">
+                  Бургер Tender Beef
+                </div>
+                <div class="menu__slider-text">
+                  Мягкая белая булочка, вырезка телятины, сыр Гауда, луковый мармелад
+                </div>
+
+                <a class="menu__slider-btn" data-fancybox data-src="#modal6" href="javascript:;">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="menu__slider-item">
+                <div class="menu__slider-img" style="background-image: url(images/menu-burger4.png);"></div>
+                <div class="menu__slider-title">
+                  Грузин Бургер
+                </div>
+                <div class="menu__slider-text">
+                  Мягкая белая булочка, котлета из барашка, сыр Чеддер, маринованный лук
+                </div>
+
+                <a class="menu__slider-btn" data-fancybox data-src="#modal5" href="javascript:;">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="menu__slider-item">
+                <div class="menu__slider-img" style="background-image: url(images/menu-burger2.png);"></div>
+                <div class="menu__slider-title">
+                  Бургер с Курочкой
+                </div>
+                <div class="menu__slider-text">
+                  Нежная булочка, сырный соус, немного горчицы, сочная хрустящая курочка
+                </div>
+
+                <a class="menu__slider-btn" data-fancybox data-src="#modal4" href="javascript:;">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="menu__slider-item">
+                <div class="menu__slider-img" style="background-image: url(images/menu-burger1.png);"></div>
+                <div class="menu__slider-title">
+                  Fish burger
+                </div>
+                <div class="menu__slider-text">
+                  Нежная булочка, соус Тар-тар, филе лосося на гриле
+                </div>
+
+                <a class="menu__slider-btn" data-fancybox data-src="#modal3" href="javascript:;">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="menu__slider-item">
+                <div class="menu__slider-img" style="background-image: url(images/menu-burger3.png);"></div>
+                <div class="menu__slider-title">
+                  Black Бургер
+                </div>
+                <div class="menu__slider-text">
+                  Черная булочка, соус Барбекю, немного горчицы, рубленный бифштекс
+                </div>
+
+                <a class="menu__slider-btn" data-fancybox data-src="#modal2" href="javascript:;">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="menu__slider-item">
+                <div class="menu__slider-img" style="background-image: url(images/menu-burger6.png);"></div>
+                <div class="menu__slider-title">
+                  Бургер New York
+                </div>
+                <div class="menu__slider-text">
+                  Булочка бриошь, сочная котлета из телятины, сыр чеддер
+                </div>
+
+                <a class="menu__slider-btn" data-fancybox data-src="#modal1" href="javascript:;">
+                  Подробнее
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="new" id="new">
+      <div class="container">
+        <div class="new__inner">
+
+          <div class="new__slider">
+            <div class="new__slider-inner">
+
+              <div class="new__slider-item">
+                <div class="new__slider-box">
+                  <div class="new__slider-descr">
+                    <div class="new__slider-title">
+                      <span class="new__slider-title--thin">Попробуйте</span>
+                      Новинки
+                    </div>
+                    <div class="new__slider-text">
+                      <span class="new__slider-text--ttl">Бургер с Телятиной</span>
+                      Все та же нежная белая булочка, соус BBQ, немного дижонской горчицы, мягчайшая вырезка телятины на
+                      гриле, побольше овощей: томаты, лук марс, салат айсберг, ну и куда же был сыра? Мы добавили
+                      Чеддер!
+
+                      <span class="new__slider-text--price">Вес: 400 гр - 228грн.</span>
+                    </div>
+                  </div>
+                  <div class="new__slider-img" style="background-image: url(images/new-burger2.jpg);"></div>
+                </div>
+              </div>
+
+              <div class="new__slider-item">
+                <div class="new__slider-box">
+                  <div class="new__slider-descr">
+                    <div class="new__slider-title">
+                      <span class="new__slider-title--thin">Попробуйте</span>
+                      Новинки
+                    </div>
+                    <div class="new__slider-text">
+                      <span class="new__slider-text--ttl">meet&meat</span>
+                      Ингредиенты: двойной бифштекс из говядины, лук, бекон, огурец соленый, сыр чеддер, сыр моцарелла,
+                      лист салата, свежий помидор, соус айоли, соус кетчуп
+
+                      <span class="new__slider-text--price">Вес: 420 гр - 220грн.</span>
+                    </div>
+                  </div>
+                  <div class="new__slider-img" style="background-image: url(images/new-burger3.jpg);"></div>
+                </div>
+              </div>
+
+              <div class="new__slider-item">
+                <div class="new__slider-box">
+                  <div class="new__slider-descr">
+                    <div class="new__slider-title">
+                      <span class="new__slider-title--thin">Попробуйте</span>
+                      Новинки
+                    </div>
+                    <div class="new__slider-text">
+                      <span class="new__slider-text--ttl">Джекки Бургер с картошкой по-деревенски</span>
+                      Ароматная булочка, куриный шницель, помидор, салатный лист, сыр Чеддер, кисло-сладкий
+                      соус+картошка
+                      по-деревенски.
+
+                      <span class="new__slider-text--price">Вес: 400 гр - 300грн.</span>
+                    </div>
+                  </div>
+                  <div class="new__slider-img" style="background-image: url(images/new-burger5.jpg);"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery" id="delivery">
+      <div class="container">
+        <div class="delivery__inner">
+          <div class="delivery__title">
+            заказать доставку
+          </div>
+          <form class="delivery__form">
+            <div class="delivery__form-box">
+              <input class="delivery__name delivery__item" type="text" placeholder="имя">
+              <input class="delivery__phone delivery__item" type="tel" placeholder="телефон">
+              <input class="delivery__adress delivery__item" type="text" placeholder="адрес доставки">
+            </div>
+            <div class="delivery__form-box">
+              <textarea class="delivery__order delivery__item" placeholder="ваш заказ и время"></textarea>
+              <button class="delivery__btn delivery__item" type="submit">отправить заявку</button>
+            </div>
+          </form>
+          <div class="delivery__bg-img delivery__bg-img--bottle"></div>
+        </div>
+      </div>
+      <div class="delivery__bg-img delivery__bg-img--burger"></div>
+      <div class="delivery__bg-img delivery__bg-img--plat"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="footer__logo" href="#">
+          <img src="images/footer-logo.png" alt="логотип">
+        </a>
+        <div class="footer__title">
+          Контакты
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__item wow animate__animated animate__fadeInDownBig">
+            <div class="footer__item-ico icon-phone"></div>
+            <div class="footer__item-title">Телефон</div>
+            <ul class="footer__item-list">
+              <li class="footer__item-itm">
+                <a class="footer__item-link" href="tel:+1234567890">+1 234 567 890</a>
+              </li>
+              <li class="footer__item-itm">
+                <a class="footer__item-link" href="tel:+1234567890">+1 234 567 890</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item wow animate__animated animate__fadeInDownBig">
+            <div class="footer__item-ico icon-map-marker"></div>
+            <div class="footer__item-title">Доставка</div>
+            <ul class="footer__item-list">
+              <li class="footer__item-itm">
+                Доставка по всему городу!
+              </li>
+              <li class="footer__item-itm">
+                Также скидка 10% на самовывоз
+              </li>
+              <li class="footer__item-itm">
+                <a class="footer__item-link" href="https://goo.gl/maps/kyPdGxeuhJrPjWPZ9" target="_blank">Киев, Бульвар
+                  Леси
+                  Украинки 139/б</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item wow animate__animated animate__fadeInDownBig">
+            <div class="footer__item-ico icon-clock-o"></div>
+            <div class="footer__item-title">Приём Заказов</div>
+            <ul class="footer__item-list">
+              <li class="footer__item-itm">
+                Ежедневно с
+              </li>
+              <li class="footer__item-itm">
+                10:00 - 22:00
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="footer__copi">
+
+          <a class="footer__mail" href="mailto:info@companyname.com">
+            info@companyname.com
+          </a>
+
+          <div class="footer__copi-text">
+            © Burger House 2020. Все правва защищены.
+          </div>
+
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a class="footer__social-link icon-instagram" href="#"></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link icon-facebook" href="#"></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link icon-twitter" href="#"></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link icon-whatsapp" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="modal1" style="display: none;" class="menu-popup">
+    <a class="menu-popup__logo" href="#">
+      <img src="images/popup-logo.png" alt="логотип">
+    </a>
+    <div class="menu-popup__title">Бургер New York</div>
+    <div class="menu-popup__text">Булочка бриошь, сочная котлета из телятины, сыр чеддер, айсберг, бекон, лук марс.
+    </div>
+    <div class="menu-popup__about">
+      <div class="menu-popup__weight">500 гр.</div>
+      <div class="menu-popup__price">200 грн.</div>
+    </div>
+  </div>
+
+  <div id="modal2" style="display: none;" class="menu-popup">
+    <a class="menu-popup__logo" href="#">
+      <img src="images/popup-logo.png" alt="логотип">
+    </a>
+    <div class="menu-popup__title">Black Бургер</div>
+    <div class="menu-popup__text">Черная брутальная булочка, соус Барбекю, еще немного брутальности в виде горчицы,
+      рубленный бифштекс приготовленный на гриле, немного лука и овощей.
+    </div>
+    <div class="menu-popup__about">
+      <div class="menu-popup__weight">400 гр.</div>
+      <div class="menu-popup__price">168 грн.</div>
+    </div>
+  </div>
+
+  <div id="modal3" style="display: none;" class="menu-popup">
+    <a class="menu-popup__logo" href="#">
+      <img src="images/popup-logo.png" alt="логотип">
+    </a>
+    <div class="menu-popup__title">Fish burger</div>
+    <div class="menu-popup__text">Нежная булочка, соус Тар-тар, филе лосося на гриле, свежий айсберг и много овощей!
+    </div>
+    <div class="menu-popup__about">
+      <div class="menu-popup__weight">350 гр.</div>
+      <div class="menu-popup__price">200 грн.</div>
+    </div>
+  </div>
+
+  <div id="modal4" style="display: none;" class="menu-popup">
+    <a class="menu-popup__logo" href="#">
+      <img src="images/popup-logo.png" alt="логотип">
+    </a>
+    <div class="menu-popup__title">Бургер с Курочкой</div>
+    <div class="menu-popup__text">Все та же нежная белая булочка, не менее нежный сырный соус, немного дижонской
+      горчицы, сочная хрустящая курочка, немного mac&cheese, соленый огурчик для пикантности, свежайший томат и любовь
+      наших поваров.
+    </div>
+    <div class="menu-popup__about">
+      <div class="menu-popup__weight">420 гр.</div>
+      <div class="menu-popup__price">220 грн.</div>
+    </div>
+  </div>
+
+  <div id="modal5" style="display: none;" class="menu-popup">
+    <a class="menu-popup__logo" href="#">
+      <img src="images/popup-logo.png" alt="логотип">
+    </a>
+    <div class="menu-popup__title">Грузин Бургер</div>
+    <div class="menu-popup__text">Мягкая белая булочка, сочная котлета из барашка, сыр Чеддер, маринованный лук, кинза,
+      салат айсберг, помидор.
+    </div>
+    <div class="menu-popup__about">
+      <div class="menu-popup__weight">380 гр.</div>
+      <div class="menu-popup__price">160 грн.</div>
+    </div>
+  </div>
+
+  <div id="modal6" style="display: none;" class="menu-popup">
+    <a class="menu-popup__logo" href="#">
+      <img src="images/popup-logo.png" alt="логотип">
+    </a>
+    <div class="menu-popup__title">Бургер Tender Beef</div>
+    <div class="menu-popup__text">Мягкая белая булочка, вырезка телятины, сыр Гауда, луковый мармелад, салат айсберг,
+      помидор.
+    </div>
+    <div class="menu-popup__about">
+      <div class="menu-popup__weight">330 гр.</div>
+      <div class="menu-popup__price">220 грн.</div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
